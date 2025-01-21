@@ -1,5 +1,6 @@
 require_relative '../../test_helper'
 require_relative '../lib/bottles'
+require 'byebug'
 
 class BottlesTest < Minitest::Test
   def test_the_first_verse
